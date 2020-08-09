@@ -1,4 +1,5 @@
 # cf-warp
+[![Run on Repl.it](https://repl.it/badge/github/NoelJacob/cf-warp)](https://repl.it/github/NoelJacob/cf-warp)
 
 > A simple cli to get [Warp+](https://blog.cloudflare.com/announcing-warp-plus/) as [WireGuard](https://www.wireguard.com/) configuration
 
