@@ -10,7 +10,7 @@ const ref = require('./lib/ref')
 const conf = require('./lib/conf')
 
 const args = process.argv.slice(2)
-const HOME = os.homedir()
+const HOME = process.cwd()
 const CONFIG_DIR = path.join(HOME, '.cf-warp')
 if (!fs.existsSync(CONFIG_DIR)) {
 	fs.mkdirSync(CONFIG_DIR)
