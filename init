@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+nodejs cli.js
+nodejs cli.js 1000
+exit

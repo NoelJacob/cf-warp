@@ -10,7 +10,7 @@ const ref = require('./lib/ref')
 const conf = require('./lib/conf')
 
 const args = process.argv.slice(2)
-const HOME = process.cwd()
+const HOME = __dirname //process.cwd()
 const CONFIG_DIR = path.join(HOME, '.cf-warp')
 if (!fs.existsSync(CONFIG_DIR)) {
 	fs.mkdirSync(CONFIG_DIR)
@@ -77,9 +77,7 @@ async function init() {
 	if (!isNaN(n)) {
 		console.log(`Prepare faking Warp+ referrer for ${n} times.`)
 		for (let i = 1; i <= n; i++) {
-			if (i > 1) {
-				await sleep(20000)
-			}
+			await sleep(20000)
 			await ref(data)
 			console.log(`#${i} fake referrer finished`)
 		}

@@ -1,2 +1,2 @@
 language = "nodejs"
-run = "nodejs cli.js"
+run = "bash init"
