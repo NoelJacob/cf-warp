@@ -1,14 +1,14 @@
 {
-	"name": "cf-warp",
-	"version": "1.3.0",
-	"main": "index.js",
-	"license": "MIT",
-	"bin": {
-		"cf-warp": "cli.js"
-	},
-	"dependencies": {
-		"fs-extra": "^8.1.0",
-		"get-stdin": "^7.0.0",
-		"tweetnacl": "^1.0.3"
-	}
+  "name": "cf-warp",
+  "version": "1.3.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "cf-warp": "cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "get-stdin": "^7.0.0",
+    "tweetnacl": "^1.0.3"
+  }
 }
